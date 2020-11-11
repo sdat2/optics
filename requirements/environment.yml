@@ -1,4 +1,4 @@
-prefix: ./env
+name: optics
 channels:
   - conda-forge
   - defaults
@@ -7,3 +7,4 @@ dependencies:
   - pip
   - pip:
     - -r file:dev-requirements.txt
+
